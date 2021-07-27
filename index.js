@@ -1,4 +1,4 @@
-const { Client } = require("discord.js");
+const { Client, MessageEmbed } = require("discord.js");
 
 const keepAlive = require('./server.js');
 
@@ -110,6 +110,16 @@ fs.readdir("./commands/", (_err, files) => {
 
 });
 
+client.on('message', message => {
+ if(message.content === "g!help"){
+  const embed = new MessageEmbed()
+  .setTile("`g!start-giveaway (channel) (Time) (Winner) (Price)` = Makes a new embed")
+  .setAuthor("My commands")
+  .setFooter("g!reroll-giveaway (MessageID) = Reroll a Giveaway")
+  .setDescription("g!end-giveaway (MessageID) = End a Giveaway")
+  message.channel.send(embed);
+  }
+ });
 // Login
 
 client.login(config.token);
