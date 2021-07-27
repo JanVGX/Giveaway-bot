@@ -86,33 +86,11 @@ const GiveawaysManager = require('./Manager.js');
 const { EventEmitter } = require('events');
 
 const merge = require('deepmerge');
-
-const { writeFile, readFile, exists } = require('fs');
-
-const { promisify } = require('util');
-
-const writeFileAsync = promisify(writeFile);
-
-const existsAsync = promisify(exists);
-
-const readFileAsync = promisify(readFile);
-
-const Discord = require('discord.js');
+.js');
 
 ```
 
 <br/>
 
-## Made with ❤️ and javascript
 
-![](https://github.com/mrmotchy/stuff/blob/main/Bild_2021-07-11_132117.png?raw=true)
 
-## Installation
-
- ### Click [here](https://www.youtube.com/channel/UCmkPzf-eAJsiuCh-5kz4Abw) to watch my YouTube video !
-
- ![](https://github.com/mrmotchy/stuff/blob/main/Bild_2021-06-14_181143.png?raw=true)
-
- ### Click [here](https://dsc.gg/dst74) to join my discord server !
-
- [![Setup](https://github.com/mrmotchy/stuff/blob/main/adada.gif?raw=true)](https://dsc.gg/dst74)
