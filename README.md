@@ -45,52 +45,10 @@ $ npm install
 
 ```
 
-# 💻 Code example
 
-This is a simple example of code using this package.
 
-```js
 
-const merge = require('deepmerge');
 
-const serialize = require('serialize-javascript');
-
-const Discord = require('discord.js');
-
-const { EventEmitter } = require('events');
-
-const {
-
-    GiveawayEditOptions,
-
-    GiveawayData,
-
-    GiveawayMessages,
-
-    GiveawayRerollOptions,
-
-    LastChanceOptions,
-
-    BonusEntry
-
-} = require('./Constants.js');
-
-const GiveawaysManager = require('./Manager.js');
-
-```
-
-&
-
-```js
-
-const { EventEmitter } = require('events');
-
-const merge = require('deepmerge');
-.js');
-
-```
-
-<br/>
 
 
 
