@@ -1,6 +1,6 @@
 # Giveaway-bot 
 
-  
+  A easy Giveaway Bot create by JanVGX
 
   # Features
 
@@ -28,7 +28,6 @@ $ npm install
 ```
 
 
-Create by JanVGX
 
 
 
