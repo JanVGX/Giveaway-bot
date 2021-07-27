@@ -82,7 +82,7 @@ fs.readdir("./events/", (_err, files) => {
 
         client.on(eventName, event.bind(null, client));
 
-        delete require.cache[require.resolve(`./events/${file}`)];
+        
 
     });
 
