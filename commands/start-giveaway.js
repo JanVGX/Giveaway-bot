@@ -82,9 +82,9 @@ exports.run = async (client, message, args) => {
 
         messages: {
 
-            giveaway: (client.config.everyoneMention ? "@everyone\n\n" : "")+"🎉🎉 **GIVEAWAY** 🎉🎉",
+            giveaway: "🎉🎉 **GIVEAWAY** 🎉🎉",
 
-            giveawayEnded: (client.config.everyoneMention ? "@everyone\n\n" : "")+"🎉🎉 **GIVEAWAY ENDED** 🎉🎉",
+            giveawayEnded: "🎉🎉 **GIVEAWAY ENDED** 🎉🎉",
 
             timeRemaining: "Time remaining: **{duration}**!",
 
